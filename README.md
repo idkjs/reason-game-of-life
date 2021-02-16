@@ -1,4 +1,4 @@
-# [Reason-game-of-life](https://reason-game-of-life.now.sh)
+# [Reason-game-of-life](https://github.com/matthiaskern/reason-game-of-life)
 
 ## Prerequisites
 
