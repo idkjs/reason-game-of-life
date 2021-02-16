@@ -85,10 +85,10 @@ let make = () => {
   <main>
     <Header />
     <Controls
-      onRandom={() => random()}
+      onRandom={_ => random()}
       onTogglePlay={_ => togglePlay()}
       isPlaying=state.isPlaying
-      onClear={() => clear()}
+      onClear={_ => clear()}
       generation=state.generation
     />
     <Board cells=state.cells onToggle={(y, x) => dispatch(ToggleCell((x, y)))} />
